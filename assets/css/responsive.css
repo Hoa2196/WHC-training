@@ -1,0 +1,47 @@
+/* PC */
+@media (mix-width: 64em) {
+
+}
+/* tablet & mobile*/
+@media (max-width: 63.9375em) {
+
+}
+
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .wrapper {
+        padding: 0 24px;
+    }
+    .intro-list {
+        width: 100%;
+    }
+    .partner-container img {
+        max-height: 36px;
+    }
+}
+
+/* mobile */
+@media (max-width: 46.1875em) {
+    .wrapper {
+        padding: 0 16px;
+    }
+    .header-container {
+        /* display: block; */
+    }
+    .header-menu {
+        display: none;
+    }
+    .feature-content {
+        width: 100%;
+    }
+    .intro-text {
+        width: 95%;
+    }
+    .intro-list {
+        width: 100%;
+    }
+    .partner-container img {
+        max-height: 20px;
+    }
+}
