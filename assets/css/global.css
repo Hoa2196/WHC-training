@@ -24,7 +24,7 @@ a {
     margin: 0 auto;
 }
 
-main {
+.main-small {
     width: 880px;
     max-width: 100%;
     margin: 0 auto;
@@ -58,12 +58,16 @@ main {
 }
 
 /* col */
+.column-2 {
+    width: 50%;
+}
+
 .column-3 {
     width: 33.333%;
 }
 
-.column-4 {
-    width: 25%;
+.column-5 {
+    width: 20%;
 }
 
 /* card */
