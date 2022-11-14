@@ -1,7 +1,17 @@
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
 /* header */
 .header {
+    /* height: 52px; */
+    background-color: #fff;
+    max-width: 100%;
+    margin: 0 auto;
     display: block;
-    padding: 32px 0 16px 0;
+    padding: 16px 0 16px 0;
+    box-shadow: 0 4px 12px 4px rgba(121, 121, 121, 0.15), 2px 2px 5px 0 rgba(198, 198, 198, 0.15);
 }
 .header .container {
     position: relative;
@@ -49,6 +59,9 @@
 }
 
 /* intro */
+.intro {
+    position: relative;
+}
 .intro .container {
     padding-bottom: 120px;
 }
@@ -56,6 +69,7 @@
     padding-bottom: 24px;
 }
 .intro-content h1 {
+    padding-top: 8px;
     padding-bottom: 16px;
     color: #0353ce;
     font-size: 2.1rem;
@@ -172,14 +186,20 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.content-card {
+    height: 400px;
+}
 
 .content-card_info {
     padding: 24px;
 }
 
 .content-card_text {
-    padding-bottom: 16px;
+    padding: 24px;
     letter-spacing: 0px;
+}
+.content-card_button {
+    padding-top: 20px;
 }
 
 .content-card_text h4 {
@@ -267,9 +287,9 @@
     gap: 0 28px;
 }
 
-.experience-card {
+/* .experience-card {
     max-width: 350px;
-}
+} */
 
 .experience-text {
     position: relative;
@@ -315,6 +335,9 @@
 }
 
 /* title */
+.title {
+    position: relative;
+}
 .title-info {
     width: 55%;
     padding-bottom: 20px;
@@ -356,6 +379,8 @@
     color: #fff;
     font-weight: 500;
     font-size: 1.1rem;
+    text-shadow: 2px 2px 2px #333;
+
 }
 /* partner */
 .partner {
@@ -374,12 +399,19 @@
 }
 
 /* footer */
-.footer .container {
+.footer {
+    max-width: 100%;
+    overflow: hidden;
+}
+.footer-container {
     background: linear-gradient(to right, #5918e8, #2a66c8), #7f90e0;
     padding: 40px 0;
 }
 .footer-containe__info {
     display: flex;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .footer-icon {
@@ -446,10 +478,130 @@
     border-radius: 8px;
     padding: 8px 24px;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 500; 
     display: flex;
     align-items: center;
     margin-left: -8px;
 }
 
 /* background */
+.background {
+    max-width: 100%;
+    /* display: none; */
+}
+
+.background-one {
+    position: absolute;
+    transform: rotate(65deg);
+    top: 100px;
+    left: -280px;
+} 
+
+.background-one__img {
+    transform: scale(0.45);
+}
+
+.background-two {
+    position: absolute;
+    transform: rotate(65deg);
+    bottom: 149px;
+    left: -248px;
+
+} 
+
+.background-two__img {
+    transform: scale(0.6);
+}
+
+.background-three {
+    position: absolute;
+    transform: rotate(25deg);
+    top: 1450px;
+    right: -332px;
+
+} 
+
+.background-three__img {
+    transform: scale(0.6);
+}
+
+.footer {
+    overflow: hidden;
+}
+.background-four {
+    position: absolute;
+    transform: rotate(125deg);
+    bottom: 1350px;
+    right: -380px;
+} 
+
+.background-four__img {
+    transform: scale(1);
+}
+
+.background-five {
+    position: absolute;
+    transform: rotate(130deg);
+    bottom: 1320px;
+    right: -360px;
+    color: rgb(225, 0, 0);
+    z-index: -1;
+} 
+
+.background-five__img {
+    transform: scale(1);
+}
+
+.background-six {
+    position: absolute;
+    transform: rotate(136deg);
+    top: 617px;
+    left: -391px;
+    height: 750px;
+    width: 613px;
+    background: linear-gradient(to left, rgba(163, 118, 253, 0.35), rgba(83, 0, 250, 0.35));
+    border-radius: 60px;
+    /* opacity: 0.3; */
+} 
+
+.background-six__img {
+
+    /* transform: scale(1); */
+    /* color: rgba(121, 121, 121, 0.15); */
+}
+
+.background-seven {
+    position: absolute;
+    transform: rotate(40deg);
+    top: 720px;
+    left: -360px;
+    z-index: -1;
+} 
+
+.background-seven__img {
+    transform: scale(1);
+}
+
+.background-eight {
+    position: absolute;
+    transform: rotate(35deg);
+    top: -200px;
+    right: -280px;
+} 
+
+.background-eight__img {
+    transform: scale(1);
+}
+
+.background-nine {
+    position: absolute;
+    transform: rotate(40deg);
+    top: -160px;
+    right: -260px;
+    z-index: -1;
+} 
+
+.background-nine__img {
+    transform: scale(1);
+}
+
