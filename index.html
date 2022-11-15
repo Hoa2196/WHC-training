@@ -15,11 +15,13 @@
 </head>
 <body>
     <div class="wrapper">
+
+        <input class="navbar-collapse" type="checkbox" checked>
         <div class="header">
             <div class="container">
                 <div class="header-container">
                     <div class="header-content">
-                        <img srcset="./assets/images/Logo.png 2x" alt="" class="header-logo">               
+                        <a href="#"><img srcset="./assets/images/Logo.png 2x" alt="" class="header-logo"></a>               
                         <ul class="header-menu">
                             <li class="header-item">
                                 <a href="#" class="header-link">Giới thiệu</a>
@@ -34,46 +36,49 @@
                                 <a href="#" class="header-link">Hỗ trợ</a>
                             </li>
                         </ul>
+                        <div class="header-auth">
+                            <a href="#" class="header-register">Đăng ký</a>
+                            <a href="#" class="header-lognin button-color">Đăng nhập</a>
+                        </div>
                     </div>
-    
-                    <div class="header-auth">
-                        <a href="#" class="header-register">Đăng ký</a>
-                        <a href="#" class="header-lognin button-color">Đăng nhập</a>
+                    <label for="header-mobile-input" class="header-mobile__button">
+                        <i class="header-menu__icon fa-solid fa-bars"></i>
+                    </label>
+
+                    <input type="checkbox" hidden class="mobie__input" name="" id="header-mobile-input">                   
+                    
+                    <label for="header-mobile-input" class="header__overlay"></label>
+                    
+                    <a href="#"><img srcset="./assets/images/Logo.png 2x" alt="" class="header__mobile-logo"></a>               
+                    <div class="header__mobile-content">
+                        <label for="header-mobile-input" class="header__mobile-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                        <ul class="header__mobile-menu">
+                            <li class="header__mobile-item">
+                                <a href="#" class="header__mobile-link">Giới thiệu</a>
+                            </li>
+                            <li class="header__mobile-item">
+                                <a href="#" class="header__mobile-link">Hướng dẫn sử dụng</a>
+                            </li>
+                            <li class="header__mobile-item">
+                                <a href="#" class="header__mobile-link">Thủ tục - Biểu mẫu</a>
+                            </li>
+                            <li class="header__mobile-item">
+                                <a href="#" class="header__mobile-link">Hỗ trợ</a>
+                            </li>
+                        </ul>
+                        <div class="header__mobile-auth">
+                            <a href="#" class="header__mobile-register">Đăng ký</a>
+                            <a href="#" class="header__mobile-lognin button-color">Đăng nhập</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
+
         <main> 
-            <div class="background">
-                <div class="background-one">
-                    <img src="./assets/images/Picture19.png" alt="" class="background-one__img">
-                </div>
-                <div class="background-two">
-                    <img src="./assets/images/Picture19.png" alt="" class="background-two__img">
-                </div>
-                <div class="background-three">
-                    <img src="./assets/images/Picture19.png" alt="" class="background-three__img">
-                </div>
-                <div class="background-four">
-                    <img src="./assets/images/Picture6.png" alt="" class="background-four__img">
-                </div>
-                <div class="background-five">
-                    <img src="./assets/images/Picture6.1.png" alt="" class="background-five__img">
-                </div>
-                <div class="background-six">
-                    <!-- <img src="./assets/images/Picture6.1.png" alt="" class="background-six__img"> -->
-                </div>
-                <div class="background-seven">
-                    <img src="./assets/images/Picture5.png" alt="" class="background-seven__img">
-                </div> 
-                <div class="background-header background-eight">
-                    <img src="./assets/images/Picture5.png" alt="" class="background-eight__img">
-                </div>
-                <div class="background-header background-nine">
-                    <img src="./assets/images/Picture6.1.png" alt="" class="background-nine__img">
-                </div> 
-            </div>   
             <section class="intro main-small">
                 <div class="container">
                     <div class="intro-container">
@@ -296,7 +301,7 @@
                         </div>
                         <div class="experience-area">
                             <div class="experience-card column-3">
-                                <div class="experience-text card">
+                                <div class="experience-text">
                                     <img srcset="./assets/images/Picture16.1.png 2x" alt="" class="experience-card__img">
                                     <div class="experience-text__info">
                                         <p>"Tôi học hỏi được nhiều và thực sự đã mở mang tư duy để sẵn sàng
@@ -402,7 +407,7 @@
 
             <section class="partner main-small">
                 <div class="container">
-                    <div class="partner-container">
+                    <div class="partner-container ">
                         <img src="./assets/images/logo-vingroup.png" alt="">
                         <img src="./assets/images/logo-viettel.png" alt="">
                         <img src="./assets/images/logo-momo.png" alt="">
@@ -416,8 +421,40 @@
             </section>
         </main>
 
+        <div class="background">
+            <div class="background-one">
+                <img src="./assets/images/Picture19.png" alt="" class="background-one__img">
+            </div>
+            <div class="background-two">
+                <img src="./assets/images/Picture19.png" alt="" class="background-two__img">
+            </div>
+            <div class="background-three">
+                <img src="./assets/images/Picture19.png" alt="" class="background-three__img">
+            </div>
+            <div class="background-five">
+                <img src="./assets/images/Picture6.1.png" alt="" class="background-five__img">
+            </div>
+            <div class="background-four">
+                <img src="./assets/images/Picture6.png" alt="" class="background-four__img">
+            </div>
+            <div class="background-seven">
+                <img src="./assets/images/Picture5.png" alt="" class="background-seven__img">
+            </div> 
+            <div class="background-six">
+                <!-- <img src="./assets/images/Picture6.1.png" alt="" class="background-six__img"> -->
+            </div>
+            <div class="background-header background-nine">
+                <img src="./assets/images/Picture6.1.png" alt="" class="background-nine__img">
+            </div> 
+            <div class="background-header background-eight">
+                <img src="./assets/images/Picture5.png" alt="" class="background-eight__img">
+            </div>
+            <div class="background-ten">
+                <img src="./assets/images/Picture19.png" alt="" class="background-ten__img">
+            </div>
+        </div> 
+
         <div class="footer">
-            <!-- <div class="container"> -->
                 <div class="footer-container">
                     <div class="footer-containe__info">
                         <div class="footer-icon column-2">
@@ -446,10 +483,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- </div> -->
             </div>  
         </div>
+          
     </div>
-    <div class="color"></div>
 </body>
 </html>

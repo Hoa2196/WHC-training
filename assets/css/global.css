@@ -1,7 +1,6 @@
 html {
-    font-size: 100%;
+    font-size: 110%;
     font-family: 'Roboto', sans-serif;
-    color: #090e56;
 }
 
 .wrapper {
@@ -15,11 +14,13 @@ main {
     position: relative;
     width: 1200px;
     max-width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    background-color: #fff;
-    box-shadow: 0 30px 30px rgba(51, 51, 51, 0.2);
-    z-index: -1;
+    /* margin-top: 88px; */
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    /* overflow: hidden; */
+    /* background-color: #fff; */
+    /* box-shadow: 0 30px 30px rgba(51, 51, 51, 0.2); */
 }
 
 p {
@@ -27,8 +28,21 @@ p {
     line-height: 1.8;
 }
 
+.feature-content p,
+.feature-card p,
+.content-info p,
+.select-card p,
+.select-content p,
+.experience-info p,
+.experience-text__info p,
+.title-info,
+.intro-text {
+    text-align:justify
+}
+
 h3 {
     font-size: 1.55rem;
+    line-height: 1.5;
 }
 
 a {
@@ -36,17 +50,11 @@ a {
     color: #090e56;
 }
 
-/* .container {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-} */
-
-.main-small {
+/* .main-small {
     width: 880px;
     max-width: 100%;
     margin: 0 auto;
-}
+} */
 
 /* button */
 .button-active {
