@@ -140,7 +140,7 @@
 
 .intro-list__text {
     display: flex;
-    gap: 0 76px;
+    gap: 0 36px;
     padding: 4px 20px;
     box-shadow: 0 4px 8px 0 rgba(149, 149, 149, 0.15), 0 2px 5px 0 rgba(179, 179, 179, 0.15);
     display: flex;
